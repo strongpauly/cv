@@ -58,15 +58,29 @@
   }
   ],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+    "institution": "University College London",
+    "area": "Computer Science",
+    "studyType": "MSc",
+    "startDate": "2004-09-01",
+    "endDate": "2005-07-01",
+    "gpa": "",
+    "courses": []
+  }, {
+    "institution": "Imperial College London",
+    "area": "Biochemistry",
+    "studyType": "BSc",
+    "startDate": "1999-09-01",
+    "endDate": "2002-07-01",
+    "gpa": "",
+    "courses": []
+  }, {
+    "institution": "Ashmole School",
+    "area": "A-Levels; Biology (B), Chemistry (B), Computing (B); A/S-Level; Statistics (C)",
+    "studyType": "",
+    "startDate": "1993-09-01",
+    "endDate": "1999-07-01",
+    "gpa": "",
+    "courses": []
   }],
   "skills": [{
     "name": "Programming",

@@ -4,6 +4,7 @@ import {PageHeader, Grid, Row, Col, Label, Panel, Image} from 'react-bootstrap';
 import Center from 'react-center';
 import resume from './data/resume';
 import Work from './Work';
+import Education from './Education';
 
 class App extends Component {
   render() {
@@ -41,7 +42,7 @@ class App extends Component {
             <Panel header="Education">
               {
                 resume.education.map( (item, index) => {
-                  return <div key={index}>{item.institution}</div>;
+                  return <Education key={index} education={item} />;
                 })
               }
             </Panel>
