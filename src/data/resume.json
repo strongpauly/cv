@@ -1,0 +1,185 @@
+{
+  "basics": {
+    "name": "Paul Potsides",
+    "label": "Full Stack Developer",
+    "picture": "/profile-smaller.png",
+    "email": "paul.potsides@outlook.com",
+    "phone": "07789037316",
+    "website": "http://paul.potsides.com",
+    "summary": "I am a 35 year old developer from London.  I have over 10 years commercial experience in full stack web application development, including browser based client (HTML, Angular, React, JavaScript, CSS, SCSS, Flex, ActionScript), middle tier (J2EE, JBoss, Node) and data storage (Oracle, MySQL, MongoDB, InfluxDB) technologies.",
+    "location": {
+      "address": "222B Wightman Road",
+      "postalCode": "N8 0ND",
+      "city": "London",
+      "countryCode": "UK",
+      "region": "Greater London"
+    },
+    "profiles": [{
+      "network": "GitHub",
+      "username": "strongpauly",
+      "url": "https://github.com/strongpauly"
+    }]
+  },
+  "work": [{
+    "company": "DevicePilot",
+    "position": "Full Stack Developer",
+    "website": "http://www.devicepilot.com",
+    "startDate": "2016-06-01",
+    "endDate": "2016-12-01",
+    "summary": "TDD/BDD style development of an IoT platform to view, monitor and manage clients devices.  Consists of HTML/AngularJS front-end, Node RESTful services, and multiple data storage engines (MongoDB, InfluxDB and MySQL).  Hosted on Amazon Web Services, Jenkins build system, Vagrant images/deployment.",
+    "highlights": []
+  }, {
+    "company": "Actix",
+    "position": "Full Stack Developer",
+    "website": "http://www.actix.com",
+    "startDate": "2008-10-01",
+    "endDate": "2015-12-01",
+    "summary": "Developing a web based product sold to mobile phone operators to visualise and optimise their wireless networks.  Consists of a Flex based front-end, JBoss middle tier and Oracle data storage/stored procedures.",
+    "highlights": [
+      "Full stack development including ActionScript front-end, Java stateless WSDL EJB middle tier and PL/SQL backend.",
+      "Maintenance and development of product build, testing and integration systems using Ant, Maven, JUnit, Jenkins, and CruiseControl.",
+      "Training junior developers on the ins and outs of the specific systems as well as general design and procedure advice."
+    ]
+  }, {
+    "company": "Ninthwave",
+    "position": "Developer",
+    "website": "http://www.ninthwave.com",
+    "startDate": "2006-07-01",
+    "endDate": "2008-10-01",
+    "summary": "Creating a flexible web application toolkit, in Java, SQL and HTML using jQuery and ExtJS (Sencha) frameworks. The product offers a widely configurable meta-structure, allowing clients to create custom-made applications to meet their needs.  Front-end components developed included an RSS feed, a calendar, a timesheet and a gantt chart, as well as the screen designer, which formed the basis of configuring the product UI for specific customers.  Administration and installation of servers, including Apache Tomcat, Caucho Resin, MS SQL Server and IIS.",
+    "highlights": []
+  }, {
+    "company": "Olim Associates",
+    "position": "Developer",
+    "startDate": "2005-12-01",
+    "endDate": "2006-07-01",
+    "summary": "Design and lead development of a customisable online survey tool, using Java servlets and MySQL backend, and HTML and JavaScript frontend.",
+    "highlights": []
+  }
+  ],
+  "education": [{
+    "institution": "University",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "skills": [{
+    "name": "Programming",
+    "level": "Master",
+    "keywords": [
+      "Java (J2EE)",
+      "Javascript (ES6)",
+      "Typescript",
+      "Actionscript",
+      "Node"
+    ]}, {
+      "name": "Frontend Technologies",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Angular",
+        "React",
+        "Redux",
+        "JSX",
+        "jQuery",
+        "ExtJS",
+        "Flex"
+    ]}, {
+      "name": "Source Control",
+      "level": "Master",
+      "keywords": [
+        "Perforce",
+        "Git",
+        "Subversion"
+    ]}, {
+      "name": "IDE",
+      "level": "Master",
+      "keywords": [
+        "Eclipse",
+        "Atom",
+        "VS Code",
+        "Flashbuider",
+        "SQL Developer"
+    ]
+    }, {
+      "name": "Devops",
+      "level": "Intermediate",
+      "keywords": [
+        "Ant",
+        "Maven",
+        "Jenkins",
+        "CruiseControl",
+        "Grunt",
+        "Github",
+        "Gitlab"
+    ]}, {
+      "name": "OS",
+      "level": "Intermediate",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "OSX"
+      ]
+    }, {
+      "name": "APIs",
+      "level": "Master",
+      "keywords": [
+        "REST",
+        "EJBs",
+        "Servlets",
+        "XML"
+      ]
+    }, {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "Oracle",
+        "MySQL",
+        "MS SQL Server",
+        "MongoDB",
+        "InfluxDB"
+      ]
+    }, {
+      "name": "Microservices",
+      "level": "Intermediate",
+      "keywords": [
+        "Vagrant",
+        "Docker"
+      ]
+    }, {
+      "name": "Containerisation",
+      "level": "Intermediate",
+      "keywords": [
+        "Vagrant",
+        "Docker"
+      ]
+    }, {
+      "name": "Project Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "Microsoft Team Foundation Server",
+        "Redmine"
+      ]
+    }
+  ],
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Snowboarding",
+    "keywords": [
+      "Sport"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}
