@@ -1,12 +1,13 @@
 {
   "name": "cv",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "homepage": "http://paul.potsides.com/cv",
   "dependencies": {
     "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",
+    "react-center": "^1.1.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
@@ -17,6 +18,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/build/**",
+      "!**/coverage/**",
+      "!**/src/index.js",
+      "!**/src/registerServiceWorker.js"
+    ]
   }
 }
