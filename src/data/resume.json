@@ -21,6 +21,13 @@
     }]
   },
   "work": [{
+    "company": "Fleetway Travel",
+    "position": "Full Stack Developer",
+    "website": "http://www.fleetway.com",
+    "startDate": "2017-07-01",
+    "summary": "A travel web application used to provide amalgamated deals from multiple sources with a consistent UI.  Java 8 Spring REST services, Node.JS web server and an Angular 4 frontend.  Atlassian dev-ops stack including JIRA, Bitbucket, Bamboo and Confluence.",
+    "highlights": []
+  }, {
     "company": "DevicePilot",
     "position": "Full Stack Developer",
     "website": "http://www.devicepilot.com",
@@ -127,6 +134,8 @@
       "keywords": [
         "Ant",
         "Maven",
+        "Gradle",
+        "Bamboo",
         "Jenkins",
         "CruiseControl",
         "Grunt",
@@ -145,6 +154,7 @@
       "level": "Master",
       "keywords": [
         "REST",
+        "Spring",
         "EJBs",
         "Servlets",
         "XML"
