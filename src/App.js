@@ -11,8 +11,9 @@ class App extends Component {
     return (
       <Grid>
         <Row>
-          <Col>
-            <PageHeader>{resume.basics.name} <small>{resume.basics.label}</small></PageHeader>
+          <Col xs={12}>
+            <PageHeader>
+              <Row><Col xs={12} md={5}>{resume.basics.name}</Col> <Col xs={12} md={7}><small>{resume.basics.label}</small></Col></Row></PageHeader>
           </Col>
         </Row>
         <Row>
