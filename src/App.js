@@ -8,6 +8,7 @@ import Education from './Education';
 
 class App extends Component {
   render() {
+    const age = Math.floor((new Date() - new Date('1981-10-17')) / (365.25 * 24 * 60 * 60 * 1000));
     return (
       <Grid>
         <Row>
@@ -22,7 +23,7 @@ class App extends Component {
               <Center>
                 <Image src={resume.basics.picture} circle />
               </Center>
-              <div style={{marginTop:8}}>{resume.basics.summary}</div>
+              <div style={{marginTop:8}}>{resume.basics.summary.replace('{age}', age)}</div>
             </Panel>
           </Col>
           <Col md={8}>

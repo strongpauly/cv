@@ -6,7 +6,7 @@
     "email": "paul.potsides@outlook.com",
     "phone": "07789037316",
     "website": "http://paul.potsides.com",
-    "summary": "I am a 35 year old developer from London.  I have over 10 years commercial experience in full stack web application development, including browser based client (HTML, Angular, React, JavaScript, CSS, SCSS, Flex, ActionScript), middle tier (J2EE, JBoss, Node) and data storage (Oracle, MySQL, MongoDB, InfluxDB) technologies.",
+    "summary": "I am a {age} year old developer from London.  I have over 10 years commercial experience in full stack web application development, including browser based client (HTML, Angular, React, JavaScript, CSS, SCSS, Flex, ActionScript), middle tier (J2EE, JBoss, Node) and data storage (Oracle, MySQL, MongoDB, InfluxDB) technologies.",
     "location": {
       "address": "222B Wightman Road",
       "postalCode": "N8 0ND",
@@ -94,7 +94,7 @@
     "level": "Master",
     "keywords": [
       "Java (J2EE)",
-      "Javascript (ES6)",
+      "Javascript (ES6+)",
       "Typescript",
       "Actionscript",
       "Node"
