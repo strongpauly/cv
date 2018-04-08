@@ -25,7 +25,8 @@
     "position": "Full Stack Developer",
     "website": "http://www.fleetway.com",
     "startDate": "2017-07-01",
-    "summary": "A travel web application used to provide amalgamated deals from multiple sources with a consistent UI.  Java 8 Spring REST services, Node.JS web server and an Angular 4 frontend.  Atlassian dev-ops stack including JIRA, Bitbucket, Bamboo and Confluence.",
+    "endDate": "2017-12-31",
+    "summary": "A travel web application used to provide a booking path for amalgamated deals from multiple sources with a consistent UI.  Java 8 Spring REST services, Node.JS web server and an Angular 5 frontend.  Atlassian dev-ops stack including JIRA, Bitbucket, Bamboo and Confluence.",
     "highlights": []
   }, {
     "company": "DevicePilot",
