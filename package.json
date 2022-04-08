@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://paul.potsides.com/cv",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "react": "^15.6.2",
     "react-bootstrap": "^0.31.5",
     "react-center": "^1.1.1",
